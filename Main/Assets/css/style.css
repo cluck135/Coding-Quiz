@@ -1,12 +1,16 @@
-
+*{
+    background-color: skyblue;
+}
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-
 .timerBox{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.answer-options{
+    list-style-type: none;
 }
