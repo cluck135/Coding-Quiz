@@ -10,7 +10,7 @@
     </head>
     <body>
         <header class="header">
-            <button>View Highscores</button>
+            <button class="view"><a href="./highscore.html">View Highscores</a></button>
             <div class="timerBox">Time Left:<div class="time-left"></div>
 
             </div>
@@ -23,15 +23,18 @@
             <button class="start-button">
                 Start the Quiz
             </button>
+            <sub></sub>
             <ul>
                 <li class="answer-options"><button class="btn"></button></li>
                 <li class="answer-options"><button class="btn"></button></li>
                 <li class="answer-options"><button class="btn"></button></li>
                 <li class="answer-options"><button class="btn"></button></li>
             </ul>
-            <div class="wrong-correct">
 
-            </div>
+                <label for="initials">Initials:</label>
+                <textarea id="initials"></textarea>
+                <a href="./highscore.html"><button class="entry">Submit</button></a>
+            <div class="wrong-correct"></div>
         </section>
 
         <script src="./Assets/js/script.js" async defer></script>

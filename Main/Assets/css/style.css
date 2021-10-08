@@ -1,5 +1,6 @@
 *{
-    background-color: skyblue;
+    background-color: dimgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .header {
     display: flex;
@@ -11,6 +12,27 @@
     flex-direction: row;
     justify-content: space-between;
 }
+.start-button{
+    background-color: skyblue;
+    border-radius: 5px;
+    border-color: black;
+}
 .answer-options{
     list-style-type: none;
+}
+.answer-options .btn{
+    background-color: palevioletred;
+    border-color: black;
+    margin: 5px;
+}
+.view {
+    background-color: skyblue;
+    border-radius: 5px;
+    border-color: black;
+    
+}
+.view a{
+    background-color: skyblue;
+    text-decoration: none;
+    color: black;
 }
