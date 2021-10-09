@@ -31,23 +31,23 @@ if(js !== ""){
 
 let questions = [
     {
-        question: "what is your favorite coding language",
-        answers: ["Java","CSS","HTML","Csharp"],
+        question: "Inside which HTML element do we put the JavaScript?",
+        answers: ["<html>","<js>","<head>","<script>"],
         correctAnswer: 3
     },
     {
-        question: "What is your favorite color",
-        answers: ["Blue","Red","Green","Yellow"],
+        question: "What is the prefix for an ID?",
+        answers: ["<","@","#","."],
         correctAnswer: 2
     },
     {
-        question: "Which element do you like",
-        answers: ["Tree","Rock","Grass","Sea"],
+        question: "Which of the following is an element?",
+        answers: ["function()","<header>",".body","$('section')"],
         correctAnswer: 1
     },
     {
-        question: "favorite food",
-        answers: ["Fries","Chicken","Beef","Salmon"],
+        question: "what is the prefix for a class?",
+        answers: ["%","#",".","<"],
         correctAnswer: 2
     }
 ]
@@ -89,7 +89,11 @@ function startTimer(){
 function displayGrade(){
     timer1 = setTimeout(function() {
         correct.style.display = "block";
-        correct.style.borderTop = "solid 5px grey";
+        correct.style.width = "20%";
+        correct.style.borderTop = "solid 5px skyblue";
+        correct.style.textAlign = "center";
+        correct.style.fontSize = "20px";
+        correct.style.color = "black";
         if(ans == true){
             correct.textContent = "Correct";
         }else{

@@ -1,18 +1,52 @@
 *{
-    background-color: dimgray;
+    background-color: silver;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
 }
 .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+li{
+    display: inline;
+}
+/* styling for time box */
 .timerBox{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: palevioletred;
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 10px;
+    
 }
+.time-left{
+    background-color: palevioletred;
+}
+#initials {
+    background-color: papayawhip;
+}
+.entry{
+    background-color: lightgreen;
+    border: solid 2px black;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+/* start button styling */
 .start-button{
+    width:fit-content;
     background-color: skyblue;
     border-radius: 5px;
     border-color: black;
