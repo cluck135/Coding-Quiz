@@ -1,28 +1,36 @@
 # Coding Quiz
 
-This projects title is Password Generator and it is a website that I coded the javascript for using my new found javascript coding skills so that it follows acceptance criteria. 
+This projects title is Coding quiz and it is a website that I coded the javascript,html,css for using my new found coding skills so that it follows acceptance criteria. 
 
 ## Languages
 
-Used javascript to code the backend of this website.
+javascript
+css
+html
 
 ## Objective
 
-- Make it so when the generate password button is clicked a password a series of prompts appears
-- When prompts appear, user is able to select which criteria they want including numnbers, special character, and upper/lowercase letters
-- When prompted for password length the user can only select a password betwen 8 and 128 characters
-- When user answers each prompt the answer is validates otherwise it re asks the question
-- When all prompts are answered then a password is generated for the user on the page
-
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and my score
 
 ## What was learned
 
-I learned a lot more about how to use eventlisteners as well as various loops in javascript such as do while loops and switch case.
+I learned a lot more about how to use eventlisteners as well as various loops in javascript such as do while loops and switch case. I also learned a lot more on how to utilize local storage to store data and use the data later on in the program.
 
 ## Project pictures/websitelink 
-<!-- MODIFY BELOW LINKS BEFORE SUBMITTING !!!!!!!!!!!!!!!!!!!!!!!!! -->
+
 Screenshots below!
-![Image of website](./Assets/03-javascript-homework-demo.png)
+![Image of website](./Assets/Website.PNG)
+![Image of HighscorePage](./Assets/highscoresWebsite.PNG)
 
 
 Link to Password Generator
