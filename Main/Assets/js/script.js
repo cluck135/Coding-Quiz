@@ -24,8 +24,9 @@ let j = 0;
 let ans;
 //checks if local storage is empty for highscores or not 
 let highscores = [];
-let js = localStorage.getItem("highscores")
-if(js !== ""){
+let check = [];
+check = JSON.parse(localStorage.getItem("highscores"));
+if(check !== null){
     highscores = JSON.parse(localStorage.getItem("highscores"));
 }
 
@@ -52,8 +53,6 @@ let questions = [
         correctAnswer: 2
     }
 ]
-
-
 
 function startGame(){
     timerCount = 60;
