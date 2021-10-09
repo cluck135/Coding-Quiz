@@ -22,13 +22,14 @@ let i = 0;
 let j = 0;
 
 let ans;
+//checks if local storage is empty for highscores or not 
 let highscores = [];
 let js = localStorage.getItem("highscores")
 if(js !== ""){
     highscores = JSON.parse(localStorage.getItem("highscores"));
 }
 
-
+// quiz questions and answers object array
 let questions = [
     {
         question: "Inside which HTML element do we put the JavaScript?",
@@ -62,7 +63,7 @@ function startGame(){
     displayQuestion();
     startTimer();
 }
-
+//displays questions and answers for each question
 function displayQuestion(){
     
         if(i<questions.length){
@@ -74,6 +75,7 @@ function displayQuestion(){
         }
 }
 
+//timer in the top right of website
 function startTimer(){
     timer = setInterval(function() {
         timerCount--;
@@ -86,6 +88,7 @@ function startTimer(){
     }, 1000);
 }
 
+// displays whether or not you answered the question correctly or not
 function displayGrade(){
     timer1 = setTimeout(function() {
         correct.style.display = "block";
@@ -101,12 +104,14 @@ function displayGrade(){
         }
     }, 1);
 }
+//removes the correct or wrong displayed after a certain time period
 function dissapear(){
     timer2 = setTimeout(function(){
         correct.style.display = "none";
     }, 900);
 }
 
+// end game display
 function endGame(){
     let score = timerCount;
     question.textContent = "All Done!";
@@ -118,6 +123,7 @@ function endGame(){
     //store this score in a local storage then have a new funcition that displays the highscores and pulls data from local storage
 }
 
+// stores your score(based on time left) and initials. then sends you to the highscore page
 function storeScore(){
 
     let obj = {
@@ -156,6 +162,7 @@ button.forEach(item => {
         }
     });
 });
-
+//starts the game
 startButton.addEventListener("click", startGame);
+//submits your score and initials
 entry.addEventListener("click", storeScore);

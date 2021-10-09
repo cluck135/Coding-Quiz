@@ -1,9 +1,10 @@
 let scoreList = document.querySelector(".highscoreList");
 let scoreClear = document.querySelector(".clear");
-    
+    //pulls highscore data from the local storage
 let list = JSON.parse(localStorage.getItem("highscores"));
 let clear = [];
 
+//runs through each object in the list and displays previous scores
 for(let i = 0; i<list.length; i++){
 
   let li = document.createElement("li");
@@ -11,10 +12,10 @@ for(let i = 0; i<list.length; i++){
 
   scoreList.appendChild(li);
 }
+//sets local storage of scores to be empty
 function clearScore(){
-    //clear.splice(index, 1);
+   
     localStorage.setItem("highscores", clear);
-    //ul.remove;
 }
-
+//clears the highscore list
 scoreClear.addEventListener("click", clearScore)
