@@ -33,6 +33,6 @@ Screenshots below!
 ![Image of HighscorePage](./Assets/highscoresWebsite.PNG)
 
 
-Link to Password Generator
+Link to Coding Quiz
 [Password Generator](https://cluck135.github.io/Password-Generator-Project//)
 
