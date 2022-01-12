@@ -1,38 +1,39 @@
 # Coding Quiz
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
 
-This projects title is Coding quiz and it is a website that I coded the javascript,html,css for using my new found coding skills so that it follows acceptance criteria. 
+Coding quiz is a website that I coded the javascript,html,css for using my new found coding skills so that it follows acceptance criteria. 
 
-## Languages
+At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
 
-javascript
-css
-html
+To help familiarize you with these tests and allow you to use the skills covered in this unit, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface.
 
-## Objective
+## Table of Contents
+- [Usage Information](#usage-information)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Test Instructions](#test-instructions)
+- [Questions](#questions)
+- [Project](#project)
 
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
+## Usage Information
+right click index.html and open in browser
 
-## What was learned
+## Contribution Guidelines
+Open Source
 
-I learned a lot more about how to use eventlisteners as well as various loops in javascript such as do while loops and switch case. I also learned a lot more on how to utilize local storage to store data and use the data later on in the program.
+## Test Instructions
+N/A
 
-## Project pictures/websitelink 
+## License
+This project is licensed under the terms of the [MIT](https://opensource.org/licenses/MIT) license
 
-Screenshots below!
-![Image of website](./Assets/Website.PNG)
-![Image of HighscorePage](./Assets/highscoresWebsite.PNG)
+## Questions
+My Github Profile: [cluck135](https://github.com/cluck135)
 
+Email me your questions at: [casenluck@gmail.com](mailto:casenluck@gmail.com)
 
-Link to Password Generator
-[Password Generator](https://cluck135.github.io/Password-Generator-Project//)
+## Project
+![Image of website](./Main/Assets/img/quiz.png)
+
+Link to coding quiz
+[Password Generator](https://cluck135.github.io/Coding-Quiz/)
 
