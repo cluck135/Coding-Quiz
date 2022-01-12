@@ -1,7 +1,7 @@
 # Coding Quiz
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
 
-Coding quiz is a website that I coded the javascript,html,css for using my new found coding skills so that it follows acceptance criteria. 
+Coding quiz is a website that I coded the javascript,html,css for using my new found coding skills
 
 At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
 
